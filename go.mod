@@ -1,6 +1,6 @@
 module github.com/qri-io/starlib
 
-go 1.12
+go 1.25.0
 
 replace (
 	github.com/go-critic/go-critic v0.0.0-20181204210945-c3db6069acc5 => github.com/go-critic/go-critic v0.0.0-20190422201921-c3db6069acc5
@@ -16,15 +16,23 @@ replace (
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/PuerkitoBio/goquery v1.5.1
-	github.com/b5/outline v0.0.0-20210930001007-03f1b39e3ab2 // indirect
+	github.com/b5/outline v0.0.0-20210930001007-03f1b39e3ab2
 	github.com/dustmop/soup v1.1.2-0.20190516214245-38228baa104e
-	github.com/google/go-cmp v0.5.1
-	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
+	github.com/google/go-cmp v0.6.0
 	github.com/paulmach/orb v0.1.5
 	github.com/pkg/errors v0.8.1
 	github.com/stretchr/testify v1.5.1
 	go.starlark.net v0.0.0-20210602144842-1cdb82c9e17a
-	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
-	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
+	golang.org/x/net v0.55.0
 	gopkg.in/yaml.v2 v2.2.8
+)
+
+require (
+	github.com/andybalholm/cascadia v1.1.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 )
